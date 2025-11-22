@@ -96,11 +96,12 @@ GET /api/logs - View system audit logs
 📂 Project Structure
 
 src/
-├── config/         # Database connection logic
-├── controllers/    # Request logic (auth, employee, team, logs)
-├── middleware/     # Auth verification middleware
-├── models/         # Mongoose Schemas
-├── routes/         # Express routes definitions
-├── seed.js         # Database population script
-└── server.js       # App entry point
+├── config/         # Database connection
+├── controllers/    # Business logic
+├── middleware/     # JWT authentication check
+├── models/         # MongoDB schemas
+├── routes/         # Route definitions
+├── seed.js         # Sample data seeder
+└── server.js       # Entry point
+
 "# Hrms_blackend" 
